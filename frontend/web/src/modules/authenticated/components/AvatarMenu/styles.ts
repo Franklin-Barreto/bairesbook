@@ -7,6 +7,7 @@ export const ProfilePic = styled.img`
 `
 
 export const Container = styled.div`
+  flex-shrink: 0;
   position: relative;
   height: 2rem;
   display: flex;
@@ -17,6 +18,7 @@ export const Container = styled.div`
 `
 
 export const Greeting = styled.span`
+  display: none;
   font-size: 0.875rem;
   font-weight: 400;
   color: ${({ theme }) => theme.palette.font.primary};
@@ -25,6 +27,10 @@ export const Greeting = styled.span`
 
   strong {
     font-weight: 600;
+  }
+
+  @media (min-width: 992px) {
+    display: block;
   }
 `
 
