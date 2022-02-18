@@ -12,15 +12,27 @@ export const Container = styled.header`
 `
 
 export const Content = styled.div`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 2rem;
   align-items: center;
+
+  @media (min-width: 992px) {
+    display: flex;
+    justify-content: space-between;
+  }
 `
 
 export const LogoContainer = styled.div`
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   column-gap: 1rem;
+
+  padding-right: 1rem;
+
+  form {
+    width: 100%;
+  }
 
   @media (min-width: 992px) {
     column-gap: 5rem;
@@ -28,6 +40,7 @@ export const LogoContainer = styled.div`
 
   #main-logo--desktop {
     display: none;
+    flex-shrink: 0;
 
     @media (min-width: 992px) {
       display: block;
@@ -35,6 +48,7 @@ export const LogoContainer = styled.div`
   }
 
   #main-logo--mobile {
+    flex-shrink: 0;
     @media (min-width: 992px) {
       display: none;
     }

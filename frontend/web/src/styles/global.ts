@@ -10,6 +10,7 @@ export default createGlobalStyle`
   html, body {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background: ${({ theme }) => theme.palette.blocks.background};
   }
 
   a {
