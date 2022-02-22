@@ -1,0 +1,209 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Franklin Pereira Barreto",
+      "email": "franklin.pereira@bairesdev.com",
+      "slackUser": "franklin.pereira",
+      "currentProject": "SmartEtailing",
+      "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/franklin.pereira.jpg",
+      "birthDate": "",
+      "startDate": "",
+      "isMentor": false,
+      "title": "Java Developer",
+      "location": {
+        "state": "São Paulo",
+        "country": "Brazil"
+      },
+      "skills": [
+        {
+          "name": "Java",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "Spring",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "JSF",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "Maven",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "Docker",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "Hibernate",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "Scrum",
+          "since": "2013-02-01"
+        },
+        {
+          "name": "SQL",
+          "since": "2013-02-01"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Leandro Torres Coutinho",
+      "email": "leandro.torres@bairesdev.com",
+      "slackUser": "leandro.torres",
+      "currentProject": "SmartEtailing",
+      "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/leandro.torres.jpg",
+      "birthDate": "",
+      "startDate": "",
+      "isMentor": true,
+      "title": "Java FullStack Developer",
+      "location": {
+        "state": "Rio de Janeiro",
+        "country": "Brazil"
+      },
+      "skills": [
+        {
+          "name": "Java",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "Spring",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "JSF",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "Maven",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "Docker",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "Hibernate",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "Scrum",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "SQL",
+          "since": "2011-02-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Wallace Viana de Souza",
+      "email": "wallace.desouza@bairesdev.com",
+      "slackUser": "wallace.desouza",
+      "currentProject": "Pinterest - Data Engineering",
+      "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/wallace.desouza.jpg",
+      "birthDate": "19901231",
+      "startDate": "",
+      "isMentor": false,
+      "title": "Frontend Engineer",
+      "location": {
+        "state": "Rio de Janeiro",
+        "country": "Brazil"
+      },
+      "skills": [
+        {
+          "name": "React",
+          "since": "2018-08-01"
+        },
+        {
+          "name": "Typescript",
+          "since": "2019-08-01"
+        },
+        {
+          "name": "REST",
+          "since": "2016-01-01"
+        },
+        {
+          "name": "Scrum",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "CSS3",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "CSS Animations",
+          "since": "2011-02-01"
+        },
+        {
+          "name": "UI Design",
+          "since": "2011-02-01"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Victor Navarro Utreras",
+      "email": "victor.navarro@bairesdev.com",
+      "slackUser": "victor.navarro",
+      "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/victor.navarro.jpg",
+      "birthDate": "",
+      "startDate": "",
+      "isMentor": false,
+      "title": "Software Engineer",
+      "location": {
+        "state": "Santiago",
+        "country": "Chile"
+      }
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "data": {
+        "title": "Getting started with NodeJS using Typescript",
+        "text": "<p>This tutorial teaches how you can build, structure, test and debug a Node.js application written in Typescript. To do so, we use an example project which you can access anytime later.</p><p>Managing large-scale javascript projects can be challenging, as you need to guarantee that the pieces fit together.</p>",
+        "image": ""
+      },
+      "isArticle": true,
+      "postedBy": {
+        "id": 2,
+        "name": "Leandro Torres Coutinho",
+        "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/leandro.torres.jpg",
+        "title": "Java FullStack Developer"
+      },
+      "comments": [
+        {
+          "id": 1,
+          "text": "Thanks! That was really helpful",
+          "user": {
+            "id": 1,
+            "name": "Franklin Pereira Barreto",
+            "title": "Java Developer",
+            "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/franklin.pereira.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "data": {
+        "title": "",
+        "text": "",
+        "image": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/meme.jpg"
+      },
+      "isArticle": false,
+      "postedBy": {
+        "id": 4,
+        "name": "Victor Navarro Utreras",
+        "photoUrl": "https://fantasticafabricadesites.com.br/arquivos-publicos/images/victor.navarro.jpg",
+        "title": "Software Engineer"
+      }
+    }
+  ]
+}

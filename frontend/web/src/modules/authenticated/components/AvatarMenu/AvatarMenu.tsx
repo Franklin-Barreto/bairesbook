@@ -35,9 +35,9 @@ export const AvatarMenu: React.FC = () => {
 
   return (
     <Container ref={ref} onClick={handleDropdownClick}>
-      <Greeting>Hey, <strong>{currentUser?.displayName}</strong></Greeting>
-      {currentUser?.photoURL && (
-        <ProfilePic src={currentUser?.photoURL} alt={currentUser.displayName || ''} />
+      <Greeting>Hey, <strong>{currentUser?.name}</strong></Greeting>
+      {currentUser?.photoUrl && (
+        <ProfilePic src={currentUser?.photoUrl} alt={currentUser.name || ''} />
       )}
       {open && (
         <Dropdown>

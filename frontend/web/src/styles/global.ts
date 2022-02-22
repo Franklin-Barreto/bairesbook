@@ -7,6 +7,10 @@ export default createGlobalStyle`
     padding: 0;
   }
 
+  *:focus {
+    outline: none;
+  }
+
   html, body {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;

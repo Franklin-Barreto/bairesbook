@@ -1,5 +1,5 @@
 import React, { FormEventHandler, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { GridContainer } from '../../../../common/components'
 
 import { AvatarMenu } from '../AvatarMenu/AvatarMenu'
@@ -26,8 +26,10 @@ export const Header: React.FC = () => {
       <GridContainer>
       <Content>
         <LogoContainer>
-          <BairesDevMobileLogo />
-          <BairesDevDesktopLogo />
+          <Link to="/">
+            <BairesDevMobileLogo />
+            <BairesDevDesktopLogo />
+          </Link>
           <form onSubmit={handleSubmit}>
             <SearchField value={search} onChange={setSearch} />
           </form>

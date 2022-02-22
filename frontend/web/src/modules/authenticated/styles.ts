@@ -9,7 +9,11 @@ export const PageContainer = styled.div`
 `
 
 export const Grid = styled.div`
-  display: grid;
-  grid-template-columns: 3fr 9fr;
-  column-gap: 1rem;
+  display: block;
+
+  @media (min-width: 992px) {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1rem;
+  }
 `
