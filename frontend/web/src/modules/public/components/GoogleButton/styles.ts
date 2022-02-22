@@ -12,6 +12,7 @@ export const Button = styled.button`
   border-color: ${({ theme }) => theme.palette.font.active};
 
   font-size: 1rem;
+  font-weight: 500;
   color: ${({ theme }) => theme.palette.font.primary};
 
   cursor: pointer;

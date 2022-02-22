@@ -35,6 +35,7 @@ export const Greeting = styled.span`
 `
 
 export const Dropdown = styled.div`
+  z-index: 1000;
   position: absolute;
   top: 3.5rem;
   right: 0;

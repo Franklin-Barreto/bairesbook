@@ -10,7 +10,10 @@ export const light = {
       background: '#f4f8fb',
       container: '#ffffff',
       shadow: '0px 3px 10px rgba(101, 111, 119, 0.16)',
-      border: '#dde2e5'
+      border: '#dde2e5',
+      highlight: '#e3f4fc',
+      accepted: '#7bb811',
+      rejected: '#ff5656'
     },
     search: {
       icon: '#0272b1',
@@ -18,6 +21,16 @@ export const light = {
       placeholder: '#9398ac',
       value: '#2d5063',
       outline: '#1da1f3'
+    },
+    button: {
+      primary: {
+        background: 'linear-gradient(to right, #1da0f2, #54b8f4)',
+        color: '#ffffff'
+      },
+      secondary: {
+        border: '#2d5063',
+        color: '#2d5063'
+      }
     }
   }
 }
@@ -34,7 +47,10 @@ export const dark = {
       background: '#262d37',
       container: '#303741',
       shadow: '0px 3px 10px rgba(0, 0, 0, 0.16)',
-      border: '#272e38'
+      border: '#272e38',
+      highlight: '#1e2329',
+      accepted: '#528d10',
+      rejected: '#fc4848'
     },
     search: {
       icon: '#1da1f3',
@@ -42,6 +58,16 @@ export const dark = {
       placeholder: '#9398ac',
       value: '#ffffff',
       outline: '#0272b1'
+    },
+    button: {
+      primary: {
+        background: 'linear-gradient(to right, #1da0f2, #54b8f4)',
+        color: '#ffffff'
+      },
+      secondary: {
+        border: '#ffffff',
+        color: '#ffffff'
+      }
     }
   }
 }
